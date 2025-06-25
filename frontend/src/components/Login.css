@@ -1,0 +1,125 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.login-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.login-card h1 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #e1e5e9;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.login-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* Dark Theme for Login */
+.dark-theme.login-container {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+.dark-theme .login-card {
+  background: #2d2d2d;
+  color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.dark-theme .login-card h1 {
+  color: #ffffff;
+}
+
+.dark-theme .input-group input {
+  background: #404040;
+  border: 2px solid #555555;
+  color: #ffffff;
+}
+
+.dark-theme .input-group input:focus {
+  border-color: #667eea;
+}
+
+.dark-theme .input-group input::placeholder {
+  color: #888888;
+}
+
+.dark-theme .login-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+/* Light Theme for Login (Default) */
+.light-theme.login-container {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.light-theme .login-card {
+  background: white;
+  color: #333333;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.light-theme .login-card h1 {
+  color: #333333;
+}
+
+.light-theme .input-group input {
+  background: white;
+  border: 2px solid #e1e5e9;
+  color: #333333;
+}
+
+.light-theme .input-group input:focus {
+  border-color: #667eea;
+}
+
+.light-theme .input-group input::placeholder {
+  color: #6c757d;
+}
+
+.light-theme .login-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+} 
