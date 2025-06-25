@@ -169,33 +169,5 @@ npm run dev  # Uses nodemon for auto-restart
 
 ```bash
 cd frontend
-npm start    # React development server with hot reload
+npm start
 ```
-
-## Deployment
-
-### Backend Deployment
-
-1. Set environment variables (PORT, MONGODB_URI)
-2. Deploy to platforms like Heroku, Railway, or DigitalOcean
-
-### Frontend Deployment
-
-1. Build the production version: `npm run build`
-2. Deploy to platforms like Vercel, Netlify, or GitHub Pages
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is licensed under the ISC License.
-
-## Support
-
-If you encounter any issues or have questions, please open an issue in the repository.
